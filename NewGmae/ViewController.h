@@ -8,6 +8,33 @@
 
 #import <UIKit/UIKit.h>
 
+
+int flight;
+int topPosition;
+int bottomPosition;
+
+
+
 @interface ViewController : UIViewController
+
+
+{
+    IBOutlet UILabel *mylabel;
+    IBOutlet UILabel *finish;
+    IBOutlet UIButton *start;
+    IBOutlet UIImageView *MyImage;
+    NSTimer *MyTimer;
+    IBOutlet UIImageView *rodTop;
+    IBOutlet UIImageView *rodBottom;
+    NSTimer *rodMovement;
+  
+    
+    
+}
+-(IBAction)Start:(id)sender;
+-(void)movement;
+-(void)rod;
+-(void)randomRods;
+
 
 @end

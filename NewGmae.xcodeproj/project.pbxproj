@@ -15,6 +15,11 @@
 		CE7143D919D746640064966F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7143D819D746640064966F /* AppDelegate.m */; };
 		CE7143DC19D746640064966F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7143DA19D746640064966F /* MainStoryboard.storyboard */; };
 		CE7143DF19D746640064966F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7143DE19D746640064966F /* ViewController.m */; };
+		CE7143EE19D7474E0064966F /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7143E919D7474D0064966F /* Background.png */; };
+		CE7143EF19D7474E0064966F /* Bird Down.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7143EA19D7474D0064966F /* Bird Down.png */; };
+		CE7143F019D7474E0064966F /* Bird Up.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7143EB19D7474D0064966F /* Bird Up.png */; };
+		CE7143F119D7474E0064966F /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7143EC19D7474D0064966F /* GameBackground.png */; };
+		CE7143F219D7474E0064966F /* Tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7143ED19D7474D0064966F /* Tunnel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,20 @@
 		CE7143C819D746640064966F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE7143CA19D746640064966F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE7143CC19D746640064966F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE7143D019D746640064966F /* NewGmae-Info.plist */ = {isa = PBXFileReference; path = "NewGmae-Info.plist"; sourceTree = "<group>"; };
+		CE7143D019D746640064966F /* NewGmae-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewGmae-Info.plist"; sourceTree = "<group>"; };
 		CE7143D219D746640064966F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE7143D419D746640064966F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE7143D619D746640064966F /* NewGmae-Prefix.pch */ = {isa = PBXFileReference; path = "NewGmae-Prefix.pch"; sourceTree = "<group>"; };
-		CE7143D719D746640064966F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7143D619D746640064966F /* NewGmae-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewGmae-Prefix.pch"; sourceTree = "<group>"; };
+		CE7143D719D746640064966F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE7143D819D746640064966F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE7143DB19D746640064966F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CE7143DD19D746640064966F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE7143DD19D746640064966F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE7143DE19D746640064966F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE7143E919D7474D0064966F /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		CE7143EA19D7474D0064966F /* Bird Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bird Down.png"; sourceTree = "<group>"; };
+		CE7143EB19D7474D0064966F /* Bird Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bird Up.png"; sourceTree = "<group>"; };
+		CE7143EC19D7474D0064966F /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		CE7143ED19D7474D0064966F /* Tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunnel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,11 @@
 		CE7143CE19D746640064966F /* NewGmae */ = {
 			isa = PBXGroup;
 			children = (
+				CE7143E919D7474D0064966F /* Background.png */,
+				CE7143EA19D7474D0064966F /* Bird Down.png */,
+				CE7143EB19D7474D0064966F /* Bird Up.png */,
+				CE7143EC19D7474D0064966F /* GameBackground.png */,
+				CE7143ED19D7474D0064966F /* Tunnel.png */,
 				CE7143D719D746640064966F /* AppDelegate.h */,
 				CE7143D819D746640064966F /* AppDelegate.m */,
 				CE7143DA19D746640064966F /* MainStoryboard.storyboard */,
@@ -150,6 +165,11 @@
 			files = (
 				CE7143D319D746640064966F /* InfoPlist.strings in Resources */,
 				CE7143DC19D746640064966F /* MainStoryboard.storyboard in Resources */,
+				CE7143EE19D7474E0064966F /* Background.png in Resources */,
+				CE7143EF19D7474E0064966F /* Bird Down.png in Resources */,
+				CE7143F019D7474E0064966F /* Bird Up.png in Resources */,
+				CE7143F119D7474E0064966F /* GameBackground.png in Resources */,
+				CE7143F219D7474E0064966F /* Tunnel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,7 @@
 				CE7143E419D746640064966F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
